@@ -174,3 +174,9 @@ class Eje(models.Model):
     image = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
     value = models.CharField(max_length=255)
+
+class What(models.Model):
+    image = models.CharField(max_length=255)
+    title = models.CharField(max_length=255) 
+    exercices = models.CharField(max_length=255) 
+    time = models.CharField(max_length=255)

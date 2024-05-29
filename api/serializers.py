@@ -144,3 +144,8 @@ class EjeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Eje
         fields = '__all__'
+
+class WhatSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = What
+        fields = '__all__'

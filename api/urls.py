@@ -28,6 +28,7 @@ router.register(r'evt', views.EventoView)
 router.register(r'you', views.YouView)
 router.register(r'late', views.LateView)
 router.register(r'eje', views.EjeView)
+router.register(r'what', views.WhatView)
 
 
 urlpatterns = [

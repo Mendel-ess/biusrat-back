@@ -168,3 +168,7 @@ class YouView(viewsets.ModelViewSet):
 class EjeView(viewsets.ModelViewSet):
     queryset = Eje.objects.all()
     serializer_class = EjeSerializer
+
+class WhatView(viewsets.ModelViewSet):
+    queryset = What.objects.all()
+    serializer_class = WhatSerializer
